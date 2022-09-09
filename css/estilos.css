@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+
+nav {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #8a8a8a;
+    float: left;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav h1 a img {
+    width: 100px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 35px 15px;
+}
+
+nav ul li a {
+    background-color: rgb(64, 64, 65);
+    color: rgb(216, 215, 215);
+    padding: 15px;
+    /* margin: 15px; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(244, 64, 65);
+    color: black;
+}
+
+header {
+    background-color: rgb(64, 64, 65);
+}
+
+header img {
+    width: 100%;
+    border: 5px solid #8a8a8a;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Grade de Clunas*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+
+footer {
+    background-color: rgb(64, 64, 65);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Estilos para o formulário */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    background-color: #8a8a8a;
+}
+
+.col-4 img:hover{
+    border: 4px solid rgb(244, 64, 65);
+}
+
+.col-3 img:hover{
+    border: 4px solid rgb(244, 64, 65);
+}
